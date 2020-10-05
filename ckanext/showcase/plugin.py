@@ -6,7 +6,7 @@ import ckan.plugins as plugins
 import ckan.lib.plugins as lib_plugins
 import ckan.lib.helpers as h
 from ckan.plugins import toolkit as tk
-from ckan.common import OrderedDict
+from collections import OrderedDict
 from ckan import model as ckan_model
 
 from routes.mapper import SubMapper
